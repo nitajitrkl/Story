@@ -59,6 +59,7 @@ app.post("/failure", function(req, res) {
 
 app.listen(process.env.PORT || 3000, function() {
   console.log("RUNNING BABY");
+  console.log("okay");
 })
 
 
